@@ -1,6 +1,30 @@
 'use strict';
 
-var a=5;
+
+var money=prompt("Ваш бюджет на месяц?"), time=prompt("Введите дату в формате YYYY-MM-DD");
+
+console.log(money);
+console.log(time);
+
+
+
+let appData = {
+    bud: money,
+    timeData: time,
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/*var a=5;
 console.log(a);
 
 var number = 5;
@@ -55,4 +79,4 @@ let isChecked=false,
     isClose=false;
 
 console.log(isChecked || isClose);
-
+*/
