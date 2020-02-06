@@ -1,19 +1,29 @@
 'use strict';
 
 
-var money=prompt("Ваш бюджет на месяц?"), time=prompt("Введите дату в формате YYYY-MM-DD");
+let money=prompt("Ваш бюджет на месяц?"), time=prompt("Введите дату в формате YYYY-MM-DD");
 
 console.log(money);
 console.log(time);
 
 
+let rashod=prompt("Введите обязательную статью расходов в этом месяце"), ob=prompt("Во сколько обойдется?");
+
+let expenses={
+    rashod: ob
+};
 
 let appData = {
     bud: money,
     timeData: time,
-    
-}
+    savings: false
+};
 
+let oneday;
+
+oneday=appData.bud/30;
+
+alert(oneday);
 
 
 
