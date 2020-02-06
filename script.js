@@ -9,6 +9,8 @@ console.log(time);
 
 let rashod=prompt("Введите обязательную статью расходов в этом месяце"), ob=prompt("Во сколько обойдется?");
 
+console.log(rashod);
+console.log(ob);
 let expenses={
     rashod: ob
 };
@@ -24,6 +26,7 @@ let oneday;
 oneday=appData.bud/30;
 
 alert(oneday);
+console.log(oneday);
 
 
 
